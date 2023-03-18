@@ -377,14 +377,14 @@ body.admin-bar .fixed-top {
 }
 .section-title h1 {
     font-weight: 600;
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: 10px;
     line-height: 42px;
 	margin: 10px auto 39px;
 }
 
 .section-title>span {
-    font-size: 20px;
+    font-size: 21px;
 }
 
 .section-title.white {
@@ -647,7 +647,7 @@ body.admin-bar .fixed-top {
 
 
 .gradient-bg {
-    background: #11cffd;
+    background: #1d6df3;
     text-align: center;
     color: #fff;
     padding: 25px 0;
@@ -666,7 +666,9 @@ body.admin-bar .fixed-top {
 	margin-top:3%;
 	    color: #fff;
 }
-
+.gradient-bg .list-inline-item a{
+    background-color: transparent;
+}
 .counter-item {
     text-align: center;
 }
@@ -1229,11 +1231,11 @@ body.admin-bar .fixed-top {
 }
 .portfolio-item span {
     padding: 20px 30px 0;
-    font-size: 15px;
+    font-size: 16px;
     display: block;
 }
 .portfolio-item h5 {
-    font-size: 18px;
+    font-size: 19px;
     color: #2b2f58;
     font-weight: 600;
     padding: 7px 30px 20px;
@@ -1244,7 +1246,7 @@ body.admin-bar .fixed-top {
     cursor: all-scroll;
 }
 .portfolio-item img{
-    height: 542px;
+    height: 500px;
     width: 500px;
 }
 .portfolio-item:hover,
@@ -2160,7 +2162,7 @@ body.admin-bar .fixed-top {
     }
 
     .section-title h1 {
-        font-size: 26px;
+        font-size: 32px;
         line-height: 30px;
     }
 
