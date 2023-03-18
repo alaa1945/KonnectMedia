@@ -1490,14 +1490,6 @@ body.admin-bar .fixed-top {
     padding: 90px 30px 60px;
     text-align: center;
 }
-.contact-item img {
-    margin-bottom: 10px;
-}
-.contact-item i {
-    font-size: 65px;
-    margin-bottom: 20px;
-    display: inline-block;
-}
 .contact-item p {
     margin-bottom: 0;
 }
@@ -1625,10 +1617,6 @@ body.admin-bar .fixed-top {
     color: #fff;
     border: 1px solid #fff;
 }
-
-/***************************
-            Footer
-****************************/
 .contact-form input[type='email'],
 .contact-form input[type='text'],
 .contact-form input[type='number'] {
@@ -1650,149 +1638,6 @@ body.admin-bar .fixed-top {
 .contact-form .cta-btn input {
     border: none;
 }
-
-/***************************
-            pricing
-****************************/
-.pricing .section-title span {
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.pricing .section-title h1 {
-    color: #260634;
-}
-
-.pricing .section-title p {
-    color: #666666;
-}
-
-.pricing-item .pricing-card {
-    color: #fff;
-    padding: 35px 50px 60px;
-    text-align: center;
-    border-radius: 6px;
-    position: relative;
-    width: 47%;
-    float: left;
-    margin: 0 7.5px;
-}
-
-.pricing-item .pricing-card h1 {
-    font-weight: bold;
-    font-size: 50px;
-    display: inline-block;
-}
-
-.pricing-item .pricing-card span {
-    font-weight: 400;
-    margin-right: 5px;
-}
-
-.pricing-item .pricing-card h6 {
-    margin-top: 95px;
-    font-size: 20px;
-    font-family: Hind;
-}
-
-.pricing-item .pricing-card p {
-    margin-bottom: 105px;
-}
-
-.pricing-item .pricing-card .package-btn li {
-    background: #fff;
-    color: #666;
-    padding: 10px 30px;
-    margin: 0;
-    border-radius: 5px;
-}
-
-
-.pricing-item .pricing-card a {
-    color: #fff;
-    display: block;
-    padding: 15px;
-    text-transform: uppercase;
-    position: absolute;
-    width: 100%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-}
-
-.pricing-item .pricing-card a:hover {
-    -webkit-box-shadow: 0px 20px 30px 0px rgba(146, 124, 255, 0.15);
-    box-shadow: 0px 20px 30px 0px rgba(146, 124, 255, 0.15);
-}
-
-
-.pricing-item .pricing-features {
-    width: 47%;
-    float: left;
-    margin: 0 7.5px;
-    padding-left: 40px;
-    margin-top: 20px;
-}
-
-.pricing-item .pricing-features span {
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-.pricing-item .pricing-features h2 {
-    color: #260634;
-    font-weight: bold;
-    font-size: 30px;
-    margin-bottom: 25px;
-}
-
-.pricing-item .pricing-features .form-check {
-    margin-bottom: 15px;
-}
-
-.pricing-item .pricing-features .form-check input {
-    margin-top: 8px;
-}
-
-/***************************
-        Backtotop
-****************************/
-
-#backtotop {
-    position: fixed;
-    bottom: 40px;
-    right: 30px;
-    display: none;
-    -webkit-box-shadow: 0px 20px 50px 0px rgba(44, 22, 146, 0.1);
-    box-shadow: 0px 20px 50px 0px rgba(44, 22, 146, 0.1);
-    background: #fff;
-    border-radius:50%;
-    padding: 13px 14px 6px;
-}
-
-#backtotop i {
-    font-size: 20px;
-}
-
-#backtotop i:hover {
-    cursor: pointer;
-}
-
-.error-404>h2 {
-    font-size: 120px;
-    font-weight: bold;
-    margin-bottom: 100px;
-}
-
-.error-404 {
-    margin-bottom: 90px;
-}
-/*--------------------------------------------------------------
-# Comments
---------------------------------------------------------------*/
 
 .comment-content {
     display: table;
@@ -2042,6 +1887,18 @@ body.admin-bar .fixed-top {
         width: 33%;
         top: 40%;
     }
+    .widget-title{
+        text-align: left!important;
+    }
+    .nav_menu-4,
+.nav_menu-5,
+.nav_menu-6{
+    text-align: left;
+}
+.menu{
+    text-align: left;
+    margin-right: 60px!important;
+}
 }
 
 
@@ -2103,6 +1960,7 @@ body.admin-bar .fixed-top {
     .counter-sec .progress-item {
         width: 125px;
     }
+    
 }
 
 @media (max-width: 991px) {
@@ -2148,6 +2006,7 @@ body.admin-bar .fixed-top {
         font-size: 30px;
         line-height: 38px;
     }
+
 }
 @media (max-width: 768px) {
     .pagination {
