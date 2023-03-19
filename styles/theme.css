@@ -332,7 +332,7 @@ ul li {
 }
 
 .banner {
-    background: url(../images/header-banner.png) #46ffff;
+    background: url(../images/header-banner.webp) #46ffff;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1108,7 +1108,7 @@ p.awesome_line {
 
     .section-title h1 {
         font-size: 32px;
-        line-height: 30px;
+        line-height: 40px;
     }
 
     .navbar {
