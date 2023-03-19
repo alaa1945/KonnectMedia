@@ -471,23 +471,27 @@ ul li {
 .service-item .expanded-p {
     display: none;
     margin: 15px 0;
-    
-  }
-  
-  .service-item.active .expanded-p  {
+
+}
+
+.service-item.active .expanded-p {
     display: block;
     overflow: hidden;
-  transition: height 0.3s ease-out;
-  transition-delay: 0.2s;
+    transition: height 0.3s ease-out;
+    transition-delay: 0.2s;
 
-  }
+}
 
 .service-item:hover {
     background-color: #59839b;
 }
+#view-link{
+    float: right;
+}
 .rotate {
     transform: rotate(180deg);
-  }
+}
+
 .service-item:hover h5,
 .service-item:hover p {
     color: #fff;
@@ -828,9 +832,11 @@ textwidget {
     font-size: 32px;
     font-weight: bold;
 }
-.why-choose-us{
+
+.why-choose-us {
     padding: 40px 0 80px;
 }
+
 .section-head {
     margin-bottom: 60px;
 }
