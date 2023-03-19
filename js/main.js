@@ -59,20 +59,7 @@
             $('.dark-logo').hide();
             $('.main-logo').show();
         }
-    });
-
-
-    // Form
-    $(".seo-form input.input").on('focus',function(){
-        var placeholder = $(this).attr("name");
-        $(this).before('<label>'+placeholder+'</label>');
-        console.log(placeholder);
-    });
-
-    $(".seo-form input.input").focusout(function(){
-        $('label').hide();
-    });    
-
+    });  
     //progress
     $(".progress-circle").circliful({
         animation: 1,
@@ -149,51 +136,5 @@
         }
       ]
     });
-    
-
-    // Counter
-$('.counter').counterUp({
-  delay: 10,
-  time: 2000
-});
-$('.counter').addClass('animated fadeInDownBig');
-$('h3').addClass('animated fadeIn');
-    // popup video
-    $('.popup-video').magnificPopup({
-        disableOn: 700,
-        type: 'iframe',
-        mainClass: 'mfp-fade'
-    });
-
-    //Backtotop
-    $(window).on('scroll', function () {
-        if ($(this).scrollTop() >= 700) {
-            $('#backtotop').fadeIn(500);
-        } else {
-            $('#backtotop').fadeOut(500);
-        }
-    });
-
-    $('#backtotop').on('click', function () {
-        $('body,html').animate({
-            scrollTop: 0
-        }, 500);
-    });
-
-
-    // Pricing Plan
-    $('.package-btn li').on('click',function() {
-        $(this).addClass('active').siblings().removeClass('active');
-    });
-
-    $('.form-check input').on('change', function() {
-        var total = 0;
-        $('input:checkbox:checked').each(function(){
-            total += isNaN(parseInt($(this).val())) ? 0 : parseInt($(this).val());
-        });
-
-        $('.totalPrice').text(total);
-    });
-
 
 })(jQuery);
