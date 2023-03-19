@@ -456,7 +456,7 @@ ul li {
 }
 
 .service-item h5 {
-    margin-top: 40px;
+    margin-top: 25px;
     color: #1e0e6a;
     font-size: 25px;
     line-height: 30px;
@@ -465,13 +465,29 @@ ul li {
 }
 
 .service-item p {
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
+
+.service-item .expanded-p {
+    display: none;
+    margin: 15px 0;
+    
+  }
+  
+  .service-item.active .expanded-p  {
+    display: block;
+    overflow: hidden;
+  transition: height 0.3s ease-out;
+  transition-delay: 0.2s;
+
+  }
 
 .service-item:hover {
-    background-color: #51ace0;
+    background-color: #59839b;
 }
-
+.rotate {
+    transform: rotate(180deg);
+  }
 .service-item:hover h5,
 .service-item:hover p {
     color: #fff;
@@ -908,7 +924,7 @@ p.awesome_line {
 }
 
 .item:hover {
-    background: #1d6df3;
+    background: #4080f0;
     box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.2);
     -webkit-transition: all .5s ease 0;
     transition: all .5s ease 0;

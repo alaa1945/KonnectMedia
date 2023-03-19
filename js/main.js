@@ -60,21 +60,19 @@
             $('.main-logo').show();
         }
     });  
-    //progress
-    $(".progress-circle").circliful({
-        animation: 1,
-        animationStep: 5,
-        animateInView: true,
-        foregroundBorderWidth: 10,
-        backgroundBorderWidth: 10,
-        percent: 38,
-        textSize: 28,
-        textStyle: 'font-size: 12px;',
-        backgroundColor: "rgba(225,225,255,0.5)",
-        foregroundColor: "#fff",
-        fontColor: '#fff',
+    
+ 
+    const serviceItems = document.querySelectorAll('.service-item');
+    serviceItems.forEach((item) => {
+      const viewLink = item.querySelector('#view-link');
+      const expandedText = item.querySelector('.expanded-p');
+  
+      viewLink.addEventListener('click', () => {
+        expandedText.classList.toggle('expanded-p');
+        viewLink.querySelector('i').classList.toggle('rotate');
+      });
     });
-
+    
 
     //banner text
     $('.bnr-text').slick({
